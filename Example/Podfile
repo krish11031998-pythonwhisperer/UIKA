@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UIKA_Example' do
+  pod 'UIKA', :path => '../'
+
+  target 'UIKA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
